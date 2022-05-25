@@ -1,6 +1,6 @@
 # Fishr: Invariant Gradient Variances for Out-of-distribution Generalization
 
-Official PyTorch implementation of the Fishr regularization for out-of-distribution generalization | [paper](https://arxiv.org/abs/2109.02934)
+Official PyTorch implementation of the Fishr regularization for out-of-distribution generalization, ICML 2022 | [paper](https://arxiv.org/abs/2109.02934)
 
 [Alexandre Ramé](https://alexrame.github.io/), [Corentin Dancette](https://cdancette.fr/), [Matthieu Cord](http://webia.lip6.fr/~cord/)
 
@@ -162,13 +162,13 @@ We addressed the task of out-of-distribution generalization for computer vision 
 
 # Citation
 
-If you find this code useful for your research, please consider citing our work (under review):
+If you find this code useful for your research, please consider citing our work:
 
 ```
-@article{rame2021ishr,
+@inproceedings{rame2021ishr,
     title={Fishr: Invariant Gradient Variances for Out-of-distribution Generalization},
     author={Alexandre Rame and Corentin Dancette and Matthieu Cord},
-    year={2021},
-    journal={arXiv preprint arXiv:2109.02934}
+    year={2022},
+    booktitle={ICML}
 }
 ```
